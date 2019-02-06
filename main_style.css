@@ -1,0 +1,20 @@
+
+.header-logo {
+    height: 90px;
+}
+
+.logo-big {
+    height: 1%;
+}
+
+.header-main {
+    position: relative;
+
+}
+
+.btn-right {
+    position: relative;
+    left: 100%;
+    transform: translate(-100%, 0);
+}
+
