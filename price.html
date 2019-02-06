@@ -26,6 +26,15 @@
             font-size: larger;
         }
 
+        .header-bg {
+            color: #d2d2d2;
+            position: relative;
+            width: 100%;
+            background-color: rgba(0,0,0,0.32);
+            text-shadow: 1px 1px 0 rgba(0,0,0, 0.3);
+        }
+
+
     </style>
 </head>
 <body>
@@ -52,8 +61,9 @@
 </nav>
 
 <div>
-<h1 class="display-3 header-main" align="center">Чем вам помочь?</h1>
-
+<div class="header-bg">
+    <h1 class="display-3 header-main" align="center">Что <span style="color: white">мы</span> предлагаем</h1>
+</div>
 
 <div class="card-deck" style="margin: 1%">
     <div class="card">
@@ -67,8 +77,9 @@
                 <li>Обновим программу в срок и сохраним все доработки</li>
             </ul>
             </p>
-            <a href="contacts.html" class="btn btn-right btn-warning">Сделайте это!</a>
+
         </div>
+        <a href="contacts.html" class="btn-right btn btn-warning" style="border-radius: 0;">Сделайте это!</a>
     </div>
     <div class="card">
         <!--<img src="src/1-price.png" class="card-img-top" alt="...">-->
@@ -81,8 +92,9 @@
                 <li>Поможем закрыть месяцы, восстановить бухгалтерский и налоговый учет в предыдущих периодах</li>
             </ul>
             </p>
-            <a href="contacts.html" class="btn btn-right btn-warning">Мне нужна помощь!</a>
+
         </div>
+        <a href="contacts.html" class="btn btn-right btn-warning" style="border-radius: 0;">Мне нужна помощь!</a>
     </div>
     <div class="card">
         <!--<img src="src/3-price.png" class="card-img-top" alt="...">-->
@@ -90,8 +102,8 @@
         <div class="card-body">
             <h5 class="card-title"> </h5>
             <p class="card-text">Разработаем нужные отчеты, печатные формы, рабочие места для сотрудников в 1С (для упрощения работы и сокращения объема ошибок в программе).</p>
-            <a href="contacts.html" class="btn btn-right btn-warning">За работу!</a>
         </div>
+        <a href="contacts.html" class="btn btn-right btn-warning" style="border-radius: 0;">За работу!</a>
     </div>
 </div>
 </div>

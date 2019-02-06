@@ -13,8 +13,12 @@
 }
 
 .btn-right {
+    width: 50%;
+    border-radius: 0;
     position: relative;
-    left: 100%;
-    transform: translate(-100%, 0);
+    transform: translate(100%, 0);
+    right: 5px;
+    bottom: 5px;
+    font-family: "Avenir Next";
 }
 
