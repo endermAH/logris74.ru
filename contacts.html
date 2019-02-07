@@ -17,13 +17,12 @@
             position: fixed;
             width: 100%;
         }
-
-        .input-card{
+        /**.input-card{
             width: 30%;
             margin: 1%;
             left: 50%;
             transform: translate(-50%, 0);
-        }
+        }*/
 
         .field {
             position: relative;
@@ -39,10 +38,17 @@
 
             outline: none;
         }
+
+        body {
+            background-image: url("src/mailbox.png");
+            background-position: center top;
+            background-attachment: fixed;
+            background-size: auto 150%;
+        }
     </style>
 </head>
 <body>
-<img src="src/mailbox.png" class="bg-img" alt="Фон с почтовыми ящиками">
+<!--<img src="src/mailbox.png" class="bg-img" alt="Фон с почтовыми ящиками">-->
 <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="index.html">
         <img src="src/logo-new.png" height="40px">
@@ -68,17 +74,21 @@
     <h1 class="display-3 header-main" align="center">Как <span style="color: white">связаться</span> с нами</h1>
 </div>
 
-<div class="card input-card">
-    <div class="card-header">
-        Мы вам перезвоним
-    </div>
-    <div class="card-body">
-        <h5 class="card-title"><small>Оставьте заявку и наш сотрудник обязательно с вами свяжется</small></h5>
-        <form>
-            <p><input type="text" autocomplete="off" autofocus="on" id="name" placeholder="Как к вам обращаться?" class="field" required></p>
-            <p><input type="tel" autocomplete="off" id="number" placeholder="Ваш номер телефона" class="field" required></p>
-            <submit class="btn btn-center btn-warning">Отправить</submit>
-        </form>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card input-card">
+            <div class="card-header">
+                Мы вам перезвоним
+            </div>
+            <div class="card-body">
+                <h5 class="card-title"><small>Оставьте заявку и наш сотрудник обязательно с вами свяжется</small></h5>
+                <form>
+                    <p><input type="text" autocomplete="off" autofocus="on" id="name" placeholder="Как к вам обращаться?" class="field" required></p>
+                    <p><input type="tel" autocomplete="off" id="number" placeholder="Ваш номер телефона" class="field" required></p>
+                    <submit class="btn btn-center btn-warning">Отправить</submit>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 </body>
