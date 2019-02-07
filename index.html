@@ -29,8 +29,9 @@
 
         .logo-main {
             position: relative;
-            width: 22%;
-            left: 39%;
+            width: 260px;
+            left: 50%;
+            transform: translate(-50%, 0);
             top: 15%;
         }
 
@@ -58,18 +59,26 @@
 
         .link-more {
             position: absolute;
-            width: 16%;
+            width: 250px;
             top: 88%;
-            left: 42%;
+            left: 50%;
+            transform: translate(-50%, 0);
             border-radius: 0;
             font-family: "Avenir Next";
             font-size: larger;
+        }
+
+        body {
+            background-image: url("src/worker.png");
+            background-position: center 10%;
+            background-attachment: fixed;
+            background-size: auto 120%;
         }
     </style>
 </head>
 <body>
 
-<img src="src/worker.png" class="bg-img" alt="Фон на котором люди пожимают друг-другу руки"/>
+<!-- <img src="src/worker.png" class="bg-img" alt="Фон на котором люди пожимают друг-другу руки"/>-->
 
 <div class="black-frame"><h1 class="display-4 header-main white-header" align="center">Вместе с <span style="color: white">Логрис</span><br><span style="color: white">Бизнес</span> проще</h1></div>
     <div class="out-frame"><img src="src/logo-new.png" class="logo-main" alt="Логотип"></div>
