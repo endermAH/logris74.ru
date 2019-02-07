@@ -65,6 +65,6 @@ button:active, button:focus {
     outline: none !important;
 }
 
-h1 {
+.display-4 {
     font-size: 6vh;
 }
