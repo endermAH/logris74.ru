@@ -64,3 +64,7 @@ body {
 button:active, button:focus {
     outline: none !important;
 }
+
+h1 {
+    font-size: 6vh;
+}
