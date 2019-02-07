@@ -3,42 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Возможности &sdot; Логрис</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
     <link rel="icon" href="src/logo-small.png" type="image/x-icon">
-    <link href="main_style.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="main_style.css" rel="stylesheet">
     <style>
         .bg-img {
-            position: absolute;
+            position: fixed;
             top: -12%;
             width: 100%;
         }
 
-        .card {
-            border-width: 0px;
-            border-radius: 0;
-            background-color: #222222;
-            color: white;
-        }
-
-        .card-header {
-            background-color: #444444;
-            font-family: "Avenir Next";
-            font-size: larger;
-        }
-
-        .header-bg {
-            color: #d2d2d2;
-            position: relative;
-            width: 100%;
-            background-color: rgba(0,0,0,0.32);
-            text-shadow: 1px 1px 0 rgba(0,0,0, 0.3);
-        }
-
-
     </style>
 </head>
 <body>
-<img src="src/lamp.png" class="bg-img"/>
+<img src="src/lamp.png" class="bg-img" alt="Фон с лампочкой"/>
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #222222">
     <a class="navbar-brand" href="index.html">
@@ -62,7 +46,7 @@
 
 <div>
 <div class="header-bg">
-    <h1 class="display-3 header-main" align="center">Что <span style="color: white">мы</span> предлагаем</h1>
+    <h1 class="display-3 header-main" align="center">Что <span style="color: white">мы предлагаем</span></h1>
 </div>
 
 <div class="card-deck" style="margin: 1%">
@@ -79,7 +63,7 @@
             </p>
 
         </div>
-        <a href="contacts.html" class="btn-right btn btn-warning" style="border-radius: 0;">Сделайте это!</a>
+        <a href="contacts.html" class="btn-right btn btn-warning">Сделайте это!</a>
     </div>
     <div class="card">
         <!--<img src="src/1-price.png" class="card-img-top" alt="...">-->
@@ -94,7 +78,7 @@
             </p>
 
         </div>
-        <a href="contacts.html" class="btn btn-right btn-warning" style="border-radius: 0;">Мне нужна помощь!</a>
+        <a href="contacts.html" class="btn btn-right btn-warning">Мне нужна помощь!</a>
     </div>
     <div class="card">
         <!--<img src="src/3-price.png" class="card-img-top" alt="...">-->
@@ -103,7 +87,7 @@
             <h5 class="card-title"> </h5>
             <p class="card-text">Разработаем нужные отчеты, печатные формы, рабочие места для сотрудников в 1С (для упрощения работы и сокращения объема ошибок в программе).</p>
         </div>
-        <a href="contacts.html" class="btn btn-right btn-warning" style="border-radius: 0;">За работу!</a>
+        <a href="contacts.html" class="btn btn-right btn-warning">За работу!</a>
     </div>
 </div>
 </div>

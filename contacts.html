@@ -3,18 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты &sdot; Логрис</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
     <link rel="icon" href="src/logo-small.png" type="image/x-icon">
-    <link href="main_style.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="main_style.css" rel="stylesheet">
+    <style>
+        .bg-img{
+            position: fixed;
+            width: 100%;
+        }
+
+        .input-card{
+            width: 30%;
+            margin: 1%;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        .field {
+            position: relative;
+            width: 70%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            border: none;
+            padding: 4px;
+            box-shadow: inset 2px 2px 0 0 rgba(0,0,0,0.32);
+        }
+
+        .field:focus {
+
+            outline: none;
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #222222">
+<img src="src/mailbox.png" class="bg-img" alt="Фон с почтовыми ящиками">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="index.html">
         <img src="src/logo-new.png" height="40px">
         <span style="margin-left: 3px">Логрис</span>
     </a>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="price.html">Возможности<span class="sr-only">(current)</span></a>
@@ -25,8 +62,24 @@
 
         </ul>
     </div>
-
 </nav>
 
+<div class="header-bg">
+    <h1 class="display-3 header-main" align="center">Как <span style="color: white">связаться</span> с нами</h1>
+</div>
+
+<div class="card input-card">
+    <div class="card-header">
+        Мы вам перезвоним
+    </div>
+    <div class="card-body">
+        <h5 class="card-title"><small>Оставьте заявку и наш сотрудник обязательно с вами свяжется</small></h5>
+        <form>
+            <p><input type="text" autocomplete="off" autofocus="on" id="name" placeholder="Как к вам обращаться?" class="field" required></p>
+            <p><input type="tel" autocomplete="off" id="number" placeholder="Ваш номер телефона" class="field" required></p>
+            <submit class="btn btn-center btn-warning">Отправить</submit>
+        </form>
+    </div>
+</div>
 </body>
 </html>
