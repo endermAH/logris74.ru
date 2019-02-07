@@ -19,7 +19,6 @@
     transform: translate(100%, 0);
     right: 5px;
     bottom: 5px;
-    font-family: "Avenir Next";
 }
 
 .btn-center {
@@ -36,7 +35,7 @@ nav {
 }
 
 body {
-    font-family: "Avenir Next";
+    font-family: 'Lato', sans-serif;
 }
 
 .header-bg {
