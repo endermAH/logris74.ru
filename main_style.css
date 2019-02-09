@@ -47,10 +47,17 @@ body {
 }
 
 .card {
+    color: #d2d2d2;
+}
+
+.card-header {
+    color: white;
+}
+
+.card {
     border-width: 0px;
     border-radius: 0;
     background-color: #222222;
-    color: white;
     box-shadow: 2px 2px 0 0 rgba(0,0,0,0.32);
     margin-bottom: 9px;
 }
@@ -67,3 +74,6 @@ button:active, button:focus {
 .display-4 {
     font-size: 6vh;
 }
+
+
+
