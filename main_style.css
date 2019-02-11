@@ -1,3 +1,14 @@
+.link {
+    color: rgb(255, 193, 7);
+}
+
+.link:visited  {
+    color: rgb(255, 193, 7);
+}
+
+.link:hover {
+    color: rgb(235, 173, 0);;
+}
 
 .header-logo {
     height: 90px;
@@ -75,5 +86,25 @@ button:active, button:focus {
     font-size: 6vh;
 }
 
+.contact {
+    margin-bottom: 16px;
+}
 
+.string {
+    color: white;
+    font-weight: bold;
+}
 
+.map {
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+}
+
+.map-display {
+    padding: 0;
+}
+
+.vk-link {
+    height: 5vh;
+}
