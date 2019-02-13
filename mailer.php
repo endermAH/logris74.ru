@@ -17,9 +17,4 @@ $message =
 
 $mailto = "evg.kuryatov@gmail.com";
 
-$mail =
-    mail($mailto, $subject, $message,
-        "From: webmaster@ example.com \r\n"
-        ."X-Mailer: PHP/" . phpversion());
-
-var_dump($mail);
+echo $message;

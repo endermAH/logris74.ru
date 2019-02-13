@@ -21,72 +21,12 @@
     </style>
 </head>
 <body>
-<img src="src/lamp.png" class="bg-img" alt="Фон с лампочкой"/>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </div>
-    </div>
-</nav>
-
-
-
-<div>
-    <div class="header-bg">
-        <h1 class="display-3 header-main" align="center">Что <span style="color: white">мы предлагаем</span></h1>
-    </div>
-
-    <div class="card-deck" style="margin: 1%">
-        <div class="card">
-            <div class="card-header">Аудит, настройка, сопровождение</div>
-            <!--<img src="src/1img.png" class="card-img-top" alt="...">-->
-            <div class="card-body">
-                <p class="card-text">
-                <ul>
-                    <li>Проведем аудит настроек программы 1С, предоставим список найденных ошибок и рекомендаций по их устранению.</li>
-                    <li>Настроим обмены данными между программами 1С, исправим ошибки в существующих</li>
-                    <li>Обновим программу в срок и сохраним все доработки</li>
-                </ul>
-                </p>
-
-            </div>
-            <a href="contacts.html" class="btn-right btn btn-warning">Сделайте это!</a>
-        </div>
-        <div class="card">
-            <!--<img src="src/1-price.png" class="card-img-top" alt="...">-->
-            <div class="card-header">Консультация и обучение</div>
-            <div class="card-body">
-                <p class="card-text">
-                <ul>
-                    <li>Окажем консультации по работе в программе, вместе с вами рассчитаем больничные и отпускные 1С</li>
-                    <li>Обучим ваших сотрудников работе с программой</li>
-                    <li>Поможем закрыть месяцы, восстановить бухгалтерский и налоговый учет в предыдущих периодах</li>
-                </ul>
-                </p>
-
-            </div>
-            <a href="contacts.html" class="btn btn-right btn-warning">Мне нужна помощь!</a>
-        </div>
-        <div class="card">
-            <!--<img src="src/3-price.png" class="card-img-top" alt="...">-->
-            <div class="card-header">Отчеты, формы, места...</div>
-            <div class="card-body">
-                <h5 class="card-title"> </h5>
-                <p class="card-text">Разработаем нужные отчеты, печатные формы, рабочие места для сотрудников в 1С (для упрощения работы и сокращения объема ошибок в программе).</p>
-            </div>
-            <a href="contacts.html" class="btn btn-right btn-warning">За работу!</a><button>Кек кнопка для тестов</button>
-        </div>
-    </div>
-</div>
+<form action="mailer.php" method="POST" target="_blank">
+    <p><input type="text" autocomplete="off" autofocus="on" id="name" placeholder="Как к вам обращаться?" class="field" required name="name"></p>
+    <p><input type="tel" autocomplete="off" id="number" placeholder="Ваш номер телефона" class="field" required name="number"></p>
+    <input type="submit" class="btn btn-center btn-warning">
+</form>
 
 </body>
 </html>

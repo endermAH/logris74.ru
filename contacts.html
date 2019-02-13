@@ -90,10 +90,11 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title"><small>Оставьте заявку и наш сотрудник обязательно с вами свяжется</small></h5>
-                <form>
-                    <p><input type="text" autocomplete="off" autofocus="on" id="name" placeholder="Как к вам обращаться?" class="field" required></p>
-                    <p><input type="tel" autocomplete="off" id="number" placeholder="Ваш номер телефона" class="field" required></p>
-                    <submit class="btn btn-center btn-warning">Отправить</submit>
+                <form action="mailer2.php" method="POST" target="_blank">
+                    <p><input type="text" autocomplete="off" autofocus="on" id="name" placeholder="Как к вам обращаться?" class="field" required name="name"></p>
+                    <p><input type="tel" autocomplete="off" id="number" placeholder="Ваш номер телефона" class="field" required name="number"></p>
+                    <p><input type="text" autocomplete="off" id="problem" placeholder="Ваша проблема" class="field" required name="problem" height="200px"></p>
+                    <input class="btn btn-center btn-warning" type="submit">
                 </form>
             </div>
         </div>
