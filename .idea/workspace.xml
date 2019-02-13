@@ -3,10 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="cf613a09-07bb-408a-8bc2-154aa86501ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/public_html/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/public_html/index.html" />
-      <change beforePath="$PROJECT_DIR$/price.html" afterPath="$PROJECT_DIR$/public_html/price.html" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="$PROJECT_DIR$/public_html/sitemap.xml" />
+      <change beforePath="$PROJECT_DIR$/mailer2.php" afterPath="$PROJECT_DIR$/public_html/mailer.php" />
+      <change beforePath="$PROJECT_DIR$/public_html/contacts.html" afterPath="$PROJECT_DIR$/public_html/contacts.html" />
+      <change beforePath="$PROJECT_DIR$/src/1-price.png" afterPath="$PROJECT_DIR$/public_html/src/1-price.png" />
+      <change beforePath="$PROJECT_DIR$/src/1img.png" afterPath="$PROJECT_DIR$/public_html/src/1img.png" />
+      <change beforePath="$PROJECT_DIR$/src/3-price.png" afterPath="$PROJECT_DIR$/public_html/src/3-price.png" />
+      <change beforePath="$PROJECT_DIR$/src/easyer.png" afterPath="$PROJECT_DIR$/public_html/src/easyer.png" />
+      <change beforePath="$PROJECT_DIR$/src/img.png" afterPath="$PROJECT_DIR$/public_html/src/img.png" />
+      <change beforePath="$PROJECT_DIR$/src/img.webp" afterPath="$PROJECT_DIR$/public_html/src/img.webp" />
+      <change beforePath="$PROJECT_DIR$/src/lamp.png" afterPath="$PROJECT_DIR$/public_html/src/lamp.png" />
+      <change beforePath="$PROJECT_DIR$/src/logo-big.png" afterPath="$PROJECT_DIR$/public_html/src/logo-big.png" />
+      <change beforePath="$PROJECT_DIR$/src/logo-new.png" afterPath="$PROJECT_DIR$/public_html/src/logo-new.png" />
+      <change beforePath="$PROJECT_DIR$/src/logo-small.png" afterPath="$PROJECT_DIR$/public_html/src/logo-small.png" />
+      <change beforePath="$PROJECT_DIR$/src/logo-text.png" afterPath="$PROJECT_DIR$/public_html/src/logo-text.png" />
+      <change beforePath="$PROJECT_DIR$/src/mailbox.png" afterPath="$PROJECT_DIR$/public_html/src/mailbox.png" />
+      <change beforePath="$PROJECT_DIR$/src/vk.png" afterPath="$PROJECT_DIR$/public_html/src/vk.png" />
+      <change beforePath="$PROJECT_DIR$/src/worker.png" afterPath="$PROJECT_DIR$/public_html/src/worker.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,103 +28,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5214592">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public_html/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="328">
-                  <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="price.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public_html/price.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public_html/contacts.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="92" column="56" lean-forward="true" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
-                  <folding>
-                    <element signature="e#60#66#0" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public_html/sitemap.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main_style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main_style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="98" column="16" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mailer.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mailer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mailer2.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mailer2.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="price.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/price.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="92" column="52" lean-forward="false" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+              <folding>
+                <element signature="e#60#66#0" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,6 +103,7 @@
         <option value="$PROJECT_DIR$/public_html/index.html" />
         <option value="$PROJECT_DIR$/public_html/price.html" />
         <option value="$PROJECT_DIR$/public_html/contacts.html" />
+        <option value="$PROJECT_DIR$/public_html/mailer2.php" />
       </list>
     </option>
   </component>
@@ -230,7 +195,7 @@
       <workItem from="1549713451265" duration="1482000" />
       <workItem from="1549866620572" duration="10876000" />
       <workItem from="1549966878801" duration="365000" />
-      <workItem from="1550035618382" duration="5643000" />
+      <workItem from="1550035618382" duration="6034000" />
     </task>
     <task id="LOCAL-00001" summary="Edited">
       <created>1549450282331</created>
@@ -414,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550041815218</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="SECURITY REWORK">
+      <created>1550042614736</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1550042614736</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42241000" />
+    <option name="totallyTimeSpent" value="42632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -452,7 +424,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Изменены стили кнопок" />
     <MESSAGE value="- Добавлены стили форм&#10;- Проведен рефакторинг кода&#10;- Стили вынесены в один файл&#10;- Исправлена ошобка с отсутствием кнопки меню" />
     <MESSAGE value="Исправлен фон для разных экранов" />
     <MESSAGE value="- Исправлены баги с отображением фона на всех страницах кроме главной&#10;- Изменено позиционирование блока на странице контактов" />
@@ -477,7 +448,8 @@
     <MESSAGE value="- git commit" />
     <MESSAGE value="- right e-mail" />
     <MESSAGE value="Отлажена отправка почты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Отлажена отправка почты" />
+    <MESSAGE value="SECURITY REWORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="SECURITY REWORK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -772,14 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mailer2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -809,7 +773,7 @@
     <entry file="file://$PROJECT_DIR$/public_html/price.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+          <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -822,10 +786,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/mailbox.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/3-price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/1-price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/worker.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/easyer.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/lamp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/1img.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/img.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/vk.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="92" column="56" lean-forward="true" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
+        <state relative-caret-position="1380">
+          <caret line="92" column="52" lean-forward="false" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
           <folding>
             <element signature="e#60#66#0" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

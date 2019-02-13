@@ -69,15 +69,11 @@ $mail->AltBody = $message;
 if(!$mail->send())
 
 {
-
     echo "Ошибка: " . $mail->ErrorInfo;
-
 }
 
 else
 
 {
-
     echo "Сообщение успешно отправлено";
-
 }
