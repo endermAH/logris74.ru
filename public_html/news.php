@@ -47,7 +47,7 @@ $newsLocal = file_get_html("../news_local.html");
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 
     <!-- Локальные стили -->
-    <link href="../main_style.css" rel="stylesheet">
+    <link href="main_style.css" rel="stylesheet">
 
     <style>
         body {

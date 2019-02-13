@@ -69,7 +69,7 @@ if ($key === '+7Logris+7') {
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 
     <!-- Локальные стили -->
-    <link href="../main_style.css" rel="stylesheet">
+    <link href="main_style.css" rel="stylesheet">
 
     <style>
         body {
