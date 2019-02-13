@@ -3,22 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf613a09-07bb-408a-8bc2-154aa86501ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mailer2.php" afterPath="$PROJECT_DIR$/public_html/mailer.php" />
-      <change beforePath="$PROJECT_DIR$/public_html/contacts.html" afterPath="$PROJECT_DIR$/public_html/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/src/1-price.png" afterPath="$PROJECT_DIR$/public_html/src/1-price.png" />
-      <change beforePath="$PROJECT_DIR$/src/1img.png" afterPath="$PROJECT_DIR$/public_html/src/1img.png" />
-      <change beforePath="$PROJECT_DIR$/src/3-price.png" afterPath="$PROJECT_DIR$/public_html/src/3-price.png" />
-      <change beforePath="$PROJECT_DIR$/src/easyer.png" afterPath="$PROJECT_DIR$/public_html/src/easyer.png" />
-      <change beforePath="$PROJECT_DIR$/src/img.png" afterPath="$PROJECT_DIR$/public_html/src/img.png" />
-      <change beforePath="$PROJECT_DIR$/src/img.webp" afterPath="$PROJECT_DIR$/public_html/src/img.webp" />
-      <change beforePath="$PROJECT_DIR$/src/lamp.png" afterPath="$PROJECT_DIR$/public_html/src/lamp.png" />
-      <change beforePath="$PROJECT_DIR$/src/logo-big.png" afterPath="$PROJECT_DIR$/public_html/src/logo-big.png" />
-      <change beforePath="$PROJECT_DIR$/src/logo-new.png" afterPath="$PROJECT_DIR$/public_html/src/logo-new.png" />
-      <change beforePath="$PROJECT_DIR$/src/logo-small.png" afterPath="$PROJECT_DIR$/public_html/src/logo-small.png" />
-      <change beforePath="$PROJECT_DIR$/src/logo-text.png" afterPath="$PROJECT_DIR$/public_html/src/logo-text.png" />
-      <change beforePath="$PROJECT_DIR$/src/mailbox.png" afterPath="$PROJECT_DIR$/public_html/src/mailbox.png" />
-      <change beforePath="$PROJECT_DIR$/src/vk.png" afterPath="$PROJECT_DIR$/public_html/src/vk.png" />
-      <change beforePath="$PROJECT_DIR$/src/worker.png" afterPath="$PROJECT_DIR$/public_html/src/worker.png" />
+      <change beforePath="$PROJECT_DIR$/public_html/mailer.php" afterPath="$PROJECT_DIR$/public_html/mailer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1380">
@@ -62,6 +47,16 @@
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mailer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,6 +99,7 @@
         <option value="$PROJECT_DIR$/public_html/price.html" />
         <option value="$PROJECT_DIR$/public_html/contacts.html" />
         <option value="$PROJECT_DIR$/public_html/mailer2.php" />
+        <option value="$PROJECT_DIR$/public_html/mailer.php" />
       </list>
     </option>
   </component>
@@ -195,7 +191,7 @@
       <workItem from="1549713451265" duration="1482000" />
       <workItem from="1549866620572" duration="10876000" />
       <workItem from="1549966878801" duration="365000" />
-      <workItem from="1550035618382" duration="6034000" />
+      <workItem from="1550035618382" duration="6678000" />
     </task>
     <task id="LOCAL-00001" summary="Edited">
       <created>1549450282331</created>
@@ -386,26 +382,41 @@
       <option name="project" value="LOCAL" />
       <updated>1550042614736</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="SECURITY REWORK 2.0">
+      <created>1550043136379</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1550043136379</updated>
+    </task>
+    <task id="LOCAL-00029" summary="correct path">
+      <created>1550043804971</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1550043804971</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42632000" />
+    <option name="totallyTimeSpent" value="43276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Migrations" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -424,9 +435,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- Добавлены стили форм&#10;- Проведен рефакторинг кода&#10;- Стили вынесены в один файл&#10;- Исправлена ошобка с отсутствием кнопки меню" />
-    <MESSAGE value="Исправлен фон для разных экранов" />
-    <MESSAGE value="- Исправлены баги с отображением фона на всех страницах кроме главной&#10;- Изменено позиционирование блока на странице контактов" />
     <MESSAGE value="- Meta-teg для google" />
     <MESSAGE value="- meta viewport" />
     <MESSAGE value="- meta viewport подтверждение" />
@@ -449,7 +457,10 @@
     <MESSAGE value="- right e-mail" />
     <MESSAGE value="Отлажена отправка почты" />
     <MESSAGE value="SECURITY REWORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="SECURITY REWORK" />
+    <MESSAGE value="SECURITY REWORK 2.0" />
+    <MESSAGE value="error display" />
+    <MESSAGE value="correct path" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -831,14 +842,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
@@ -849,6 +852,14 @@
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
