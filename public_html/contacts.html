@@ -20,13 +20,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <link rel="icon" href="src/logo-small.png" type="image/x-icon">
+    <link rel="icon" href="../src/logo-small.png" type="image/x-icon">
 
     <!-- Шрифт -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 
     <!-- Локальные стили -->
-    <link href="main_style.css" rel="stylesheet">
+    <link href="../main_style.css" rel="stylesheet">
 
     <style>
         .field {
@@ -45,7 +45,7 @@
         }
 
         body {
-            background-image: url("src/mailbox.png");
+            background-image: url("../src/mailbox.png");
             background-position: center top;
             background-attachment: fixed;
             background-size: auto 130%;
@@ -56,7 +56,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="index.html">
-        <img src="src/logo-new.png" height="40px">
+        <img src="../src/logo-new.png" height="40px">
         <span style="margin-left: 3px">Логрис</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,7 +73,7 @@
 
         </ul>
         <a class="link" href="https://vk.com/club147119321">
-            <img src="src/vk.png" class="vk-link"/>
+            <img src="../src/vk.png" class="vk-link"/>
         </a>
     </div>
 </nav>
@@ -90,8 +90,8 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title"><small>Оставьте заявку и наш сотрудник обязательно с вами свяжется</small></h5>
-                <form action="mailer2.php" method="POST" target="_blank">
-                    <p><input type="text" autocomplete="off" autofocus="on" id="name" placeholder="Как к вам обращаться?" class="field" required name="name"></p>
+                <form action="../mailer2.php" method="POST" target="_blank">
+                    <p><input type="text" autocomplete="off" autofocus id="name" placeholder="Как к вам обращаться?" class="field" required name="name"></p>
                     <p><input type="tel" autocomplete="off" id="number" placeholder="Ваш номер телефона" class="field" required name="number"></p>
                     <p><input type="text" autocomplete="off" id="problem" placeholder="Ваша проблема" class="field" required name="problem" height="200px"></p>
                     <input class="btn btn-center btn-warning" type="submit">
