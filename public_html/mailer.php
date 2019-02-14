@@ -78,3 +78,5 @@ else
 {
     echo "Сообщение успешно отправлено";
 }
+
+header('Location: http://localhost/contacts.html');
