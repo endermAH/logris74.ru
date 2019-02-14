@@ -3,6 +3,7 @@
 require_once "../vendor/autoload.php";
 use PHPMailer\PHPMailer\PHPMailer;
 
+header('Refresh: 5; url=http://rambler.ru/');
 
 $name = htmlspecialchars($_POST['name']);
 $number = htmlspecialchars($_POST['number']);
@@ -76,7 +77,6 @@ if(!$mail->send())
 else
 
 {
-    echo "Сообщение успешно отправлено";
+    echo "Сообщение успешно отправлено через 5 секунд вы вернетесь на страницу контактов!";
 }
 
-header('Location: http://localhost/contacts.html');
