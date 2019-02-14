@@ -14,11 +14,18 @@ foreach ($html->find(".news-list>li>a") as $a) {
     $a->target = "_blank";
 }
 
+foreach ($html->find(".news-list>li") as $li) {
+    $new =  $li->find('a')[0]."<div style='text-align: right;'>".$li->find('strong')[0]->plaintext."</div>";
+    $li->innertext = $new;
+
+}
+
 $news = $html->find(".news-list")[0];
 //$news_html = file_get_html($news);
 
 $newsLocal = file_get_html("../news_local.html");
 
+//die;
 ?>
 
 <head>
@@ -52,13 +59,14 @@ $newsLocal = file_get_html("../news_local.html");
     <style>
         body {
             background-image: url("src/news.jpeg");
+            background-color: #d2d2d2;
             background-position: center top;
             background-attachment: fixed;
             background-size: auto 140%;
         }
 
         .news-list{
-            padding: 5px;
+            padding: 0;
         }
 
         .news-list>strong {
@@ -66,24 +74,27 @@ $newsLocal = file_get_html("../news_local.html");
         }
 
         .news-list>li{
-            background-color: #444444;
-            color: white;
-            margin-bottom: 5px;
+            background-color: #ffffff;
+            color: black;
+            margin-bottom: 7px;
             list-style-type: none;
-            border-radius: 5px;
+            /*border-radius: 5px;*/
             padding: 5px;
+            box-shadow: 2px 2px rgba(0,0,0, 0.32);
+            border-left: 5px solid rgb(255, 193, 7);
+
         }
 
         .news-list>li>a {
-            color: rgb(255, 193, 7);
+            color: black;
         }
 
         .news-list>li>a:hover {
-            color: rgb(255, 193, 7);
+            color: black;
         }
 
         .news-list>li>a:visited {
-            color: rgb(255, 193, 7);
+            color: black;
         }
 
         ul {
@@ -94,6 +105,11 @@ $newsLocal = file_get_html("../news_local.html");
             /*width: 100%;*/
             /*//height: 50vm;*/
             overflow: hidden;
+        }
+
+        .card-header {
+            background-color: darkred;
+            color: white;
         }
     </style>
 </head>
@@ -141,11 +157,11 @@ $newsLocal = file_get_html("../news_local.html");
         </div>
 
         <div class="col-xl-4">
-            <div class="card input-card">
-                <div class="card-header">
+            <div class="card input-card" style="background: transparent; box-shadow: none;">
+                <div class="card-header" style="box-shadow: 2px 2px rgba(0,0,0, 0.32); margin-bottom: 5px ">
                     Новости 1С
                 </div>
-                <div class="card-body">
+                <div class="card-body" style="background: transparent;  padding: 0;">
                     <?= $news ?>
                 </div>
             </div>

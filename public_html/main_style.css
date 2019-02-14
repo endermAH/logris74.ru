@@ -59,6 +59,7 @@ body {
 
 .card {
     color: #d2d2d2;
+    border-radius: 5px;
 }
 
 .card-header {
@@ -67,7 +68,7 @@ body {
 
 .card {
     border-width: 0px;
-    border-radius: 0;
+    border-radius: 5px;
     background-color: #222222;
     box-shadow: 2px 2px 0 0 rgba(0,0,0,0.32);
     margin-bottom: 9px;

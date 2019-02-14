@@ -9,11 +9,12 @@
 $name = htmlspecialchars($_POST['name']);
 $number = htmlspecialchars($_POST['number']);
 
-$subject = "Новое обращение с сайта lorgis74.ru";
+$subject = "Новое обращение через lorgis74.ru";
 
 $message =
     "<b>Обращение от:</b> {$name} <br>
-     <b>Номер телефона:</b><br> {$number}";
+     <b>Номер телефона:</b><br> {$number}<br>
+     <a href='mailer.php'>Больше не присылать такие сообщения</a>";
 
 $mailto = "evg.kuryatov@gmail.com";
 
