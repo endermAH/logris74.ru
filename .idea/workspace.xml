@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf613a09-07bb-408a-8bc2-154aa86501ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mailer.php" afterPath="$PROJECT_DIR$/mailer.php" />
-      <change beforePath="$PROJECT_DIR$/news_local.html" afterPath="$PROJECT_DIR$/news_local.html" />
-      <change beforePath="$PROJECT_DIR$/public_html/main_style.css" afterPath="$PROJECT_DIR$/public_html/main_style.css" />
-      <change beforePath="$PROJECT_DIR$/public_html/news.php" afterPath="$PROJECT_DIR$/public_html/news.php" />
+      <change beforePath="$PROJECT_DIR$/public_html/mailer.php" afterPath="$PROJECT_DIR$/public_html/mailer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,12 +24,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="79" column="89" lean-forward="false" selection-start-line="79" selection-start-column="89" selection-end-line="79" selection-end-column="89" />
-              <folding />
+            <state relative-caret-position="844">
+              <caret line="161" column="66" lean-forward="false" selection-start-line="161" selection-start-column="66" selection-end-line="161" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +49,8 @@
       <file leaf-file-name="webmorda.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/webmorda.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="133">
+              <caret line="116" column="10" lean-forward="true" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
               <folding>
                 <marker date="1550062346555" expanded="true" signature="359:845" ph="..." />
                 <marker date="1550062346555" expanded="true" signature="399:443" ph="..." />
@@ -130,7 +129,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="news.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/news.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -226,11 +225,11 @@
         <option value="$PROJECT_DIR$/main_style.css" />
         <option value="$PROJECT_DIR$/public_html/webmorda.php" />
         <option value="$PROJECT_DIR$/public_html/contacts.html" />
-        <option value="$PROJECT_DIR$/public_html/mailer.php" />
         <option value="$PROJECT_DIR$/public_html/main_style.css" />
         <option value="$PROJECT_DIR$/news_local.html" />
         <option value="$PROJECT_DIR$/mailer.php" />
         <option value="$PROJECT_DIR$/public_html/news.php" />
+        <option value="$PROJECT_DIR$/public_html/mailer.php" />
       </list>
     </option>
   </component>
@@ -323,7 +322,7 @@
       <workItem from="1549713451265" duration="1482000" />
       <workItem from="1549866620572" duration="10876000" />
       <workItem from="1549966878801" duration="365000" />
-      <workItem from="1550035618382" duration="28035000" />
+      <workItem from="1550035618382" duration="28834000" />
     </task>
     <task id="LOCAL-00001" summary="Edited">
       <created>1549450282331</created>
@@ -584,11 +583,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550134870914</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="kek">
+      <created>1550145521181</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1550145521181</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64633000" />
+    <option name="totallyTimeSpent" value="65432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -645,7 +651,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- Попытка иправить отсутствие фона с мобильных 5" />
     <MESSAGE value="- Доработана адаптивность шрифтов и логотипа на главной" />
     <MESSAGE value="- Логотип добит" />
     <MESSAGE value="- А - Адаптивность" />
@@ -670,7 +675,8 @@
     <MESSAGE value="css bug fixed" />
     <MESSAGE value="redirect" />
     <MESSAGE value="redirect + css bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="redirect + css bug fix" />
+    <MESSAGE value="kek" />
+    <option name="LAST_COMMIT_MESSAGE" value="kek" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1068,54 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="79" column="89" lean-forward="false" selection-start-line="79" selection-start-column="89" selection-end-line="79" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/webmorda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding>
-            <marker date="1550062346555" expanded="true" signature="359:845" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="399:443" ph="..." />
-            <marker date="1550062346555" expanded="false" signature="490:540" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="542:830" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="582:614" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="582:615" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="582:668" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="582:673" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="582:699" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="760:811" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="971:1072" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="1092:3350" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="3000:3342" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="3015:3063" ph="{...}" />
-            <marker date="1550062346555" expanded="true" signature="3077:3330" ph="{...}" />
-            <marker date="1550062346555" expanded="true" signature="3358:5673" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="4687:4697" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="4698:5664" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="4729:5653" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="4771:5638" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="4813:4872" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="4912:5619" ph="..." />
-            <marker date="1550062346555" expanded="true" signature="4975:5596" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1157,6 +1115,56 @@
             <marker date="1550145509347" expanded="true" signature="5263:5317" ph="..." />
             <marker date="1550145509347" expanded="false" signature="5365:5402" ph="..." />
             <marker date="1550145509347" expanded="true" signature="5403:5459" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/webmorda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="116" column="10" lean-forward="true" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+          <folding>
+            <marker date="1550062346555" expanded="true" signature="359:845" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="399:443" ph="..." />
+            <marker date="1550062346555" expanded="false" signature="490:540" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="542:830" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="582:614" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="582:615" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="582:668" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="582:673" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="582:699" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="760:811" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="971:1072" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="1092:3350" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="3000:3342" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="3015:3063" ph="{...}" />
+            <marker date="1550062346555" expanded="true" signature="3077:3330" ph="{...}" />
+            <marker date="1550062346555" expanded="true" signature="3358:5673" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="4687:4697" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="4698:5664" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="4729:5653" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="4771:5638" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="4813:4872" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="4912:5619" ph="..." />
+            <marker date="1550062346555" expanded="true" signature="4975:5596" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="161" column="66" lean-forward="false" selection-start-line="161" selection-start-column="66" selection-end-line="161" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
