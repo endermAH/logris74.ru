@@ -16,7 +16,7 @@ $message =
      <b>Номер телефона:</b> {$number} <br>
      <b>Текст обращения:</b>{$problem}";
 
-echo $message;
+//echo $message;
 
 $mailto = "info@logris74.ru";
 
