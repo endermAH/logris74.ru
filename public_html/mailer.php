@@ -24,7 +24,7 @@ $mail = new PHPMailer;
 
 //Подключение отладки SMTP.
 
-//$mail->SMTPDebug = 3;
+$mail->SMTPDebug = 3;
 
 //Задаем для PHPMailer использовать SMTP.
 
