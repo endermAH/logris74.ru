@@ -111,7 +111,7 @@ $mail->AltBody = $message;
             background-position: center 10%;
             background-attachment: fixed;
             background-size: auto 1200px;
-            -webkit-background-image: url("src/worker.png");
+            /*-webkit-background-image: url("src/worker.png");*/
         }
     </style>
 </head>

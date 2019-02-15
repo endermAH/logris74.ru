@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf613a09-07bb-408a-8bc2-154aa86501ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/public_html/contacts.html" afterPath="$PROJECT_DIR$/public_html/contacts.html" />
       <change beforePath="$PROJECT_DIR$/public_html/mailer.php" afterPath="$PROJECT_DIR$/public_html/mailer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mailer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="14">
+              <caret line="113" column="62" lean-forward="true" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -104,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+            <state relative-caret-position="198">
+              <caret line="85" column="55" lean-forward="false" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
               <folding>
                 <element signature="e#60#66#0" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -180,12 +181,12 @@
         <option value="$PROJECT_DIR$/public_html/index.html" />
         <option value="$PROJECT_DIR$/main_style.css" />
         <option value="$PROJECT_DIR$/public_html/webmorda.php" />
-        <option value="$PROJECT_DIR$/public_html/contacts.html" />
         <option value="$PROJECT_DIR$/public_html/main_style.css" />
         <option value="$PROJECT_DIR$/news_local.html" />
         <option value="$PROJECT_DIR$/mailer.php" />
         <option value="$PROJECT_DIR$/public_html/news.php" />
         <option value="$PROJECT_DIR$/public_html/mailer.php" />
+        <option value="$PROJECT_DIR$/public_html/contacts.html" />
       </list>
     </option>
   </component>
@@ -284,7 +285,7 @@
       <workItem from="1549866620572" duration="10876000" />
       <workItem from="1549966878801" duration="365000" />
       <workItem from="1550035618382" duration="29083000" />
-      <workItem from="1550222742142" duration="39000" />
+      <workItem from="1550222742142" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="Edited">
       <created>1549450282331</created>
@@ -566,11 +567,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550222766861</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Mail correcting">
+      <created>1550222786757</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1550222786757</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65720000" />
+    <option name="totallyTimeSpent" value="65946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -988,19 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding>
-            <element signature="e#60#66#0" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1090,9 +1085,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/mailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="14">
+          <caret line="113" column="62" lean-forward="true" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="85" column="55" lean-forward="false" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
+          <folding>
+            <element signature="e#60#66#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
